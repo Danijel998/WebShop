@@ -1,0 +1,224 @@
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: #E4E7EA;
+    padding-top: 0%;
+    height: 50px;
+} 
+.content{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0%;
+}
+.float-header{
+    padding: 20px;
+    width: 100%;
+    padding-top: 10px;
+}
+#leftbox {
+    float:left; 
+    width:25%;
+    height: 50px;
+}
+#middlebox{
+    float:left; 
+    justify-content: center;
+    width:50%;
+    height: 50px; 
+}
+#rightbox{
+    float:left;
+    width:17%;
+    height: 50px;
+
+}
+#iconheart{
+    float:left;
+    width:4%;
+    height: 50px;
+}
+#iconbag{
+    float:right;
+    width:4%;
+    height: 50px;
+}
+.form-control{
+    width: 150px;
+}
+.nav-item{
+    font-size: smaller;
+}
+
+.mainTitleFirst{
+    display: flex;  
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.mainTitleSecond{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    margin-top: 50px;
+}
+
+.wrapper{
+    max-height: 4400px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+
+}
+
+.wrapper .item{
+    min-width: 440px;
+    height: 440px;
+    line-height: 440px;
+    text-align: center;
+    margin-right: 1px;
+}
+.shoesname{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.outfit{
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.manoutfit{
+    position: relative;
+    float:left;
+}
+.womenoutfit{
+    position: relative;
+    float:left;
+}
+.kidsoutfit{
+    position: relative;
+    float:right;
+}
+.manoutfit image{
+    width: 100%;
+    height: auto;
+}
+.manoutfit .imagebtn{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.womenoutfit image{
+    width: 100%;
+    height: auto;
+}
+.womenoutfit .imagebtn{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.kidsoutfit image{
+    width: 100%;
+    height: auto;
+}
+
+.kidsoutfit .imagebtn{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.nikeapp{
+    display: flex;
+    justify-content: center;
+}
+.nikeforest{
+    float: left;
+    position: relative;
+   
+
+}
+.nikeforest image{
+    width: 100%;
+    height: auto;
+}
+.nikeforest .forestbtn{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.nikeforest .foresttxt{
+    position: absolute;
+    top: 80%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #ddd;
+}
+.footer{
+    background-color: #E4E7EA;
+    width: 100%;
+    margin-top: 40px;
+   width: 100%;
+}
+.google-map{
+    display:flex;
+    justify-content: center;
+}
+/*CSS for JoinUsTab and SignIn */
+.joinus{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+.titlejoinus{
+    display:flex;
+    align-content:flex-start ;
+}
+.joinbtn{
+    display: flex;
+    justify-content: end;
+}
+.form-outline{
+    padding: 10px;
+}
+.flname{
+    display: flex;
+    justify-content: space-between;
+}
+/*News&Featured CSS*/
+.newfeatured{
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.newfeatured .item{
+    position: relative;
+    float:left;
+}
+
+.newfeatured .item .btnbuy{
+    display: flex;
+    justify-content: end;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+}
